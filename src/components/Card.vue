@@ -13,7 +13,7 @@
         </div>
       </div>
       <div class="display-cards-block">
-        <div class="show-card-number">
+        <div class="show-card-number" v-if="activeTab === 1">
           <div class="align-horizontally inner">
             <span><img src="../assets/images/eye.svg" alt="eye" /></span>
             <span class="label">Show card number</span>
